@@ -1,0 +1,111 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    padding: 20px;
+}
+
+header {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+
+nav a {
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    width: 70px;
+    height: 30px;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+nav .orange {
+    background: #FF764E;
+}
+
+nav .blue {
+    background-color: #5ED3EB;
+}
+
+nav .yellow {
+    background-color: #FFCD69;
+}
+
+#tanitim{
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#tanitim img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    width: 15%;
+    object-fit: cover;
+}
+
+#tanitim div {
+    width: 50%;
+    margin-left: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+#tanitim h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 30px;
+}
+
+#tanitim p{
+    font-size: 15px;
+}
+
+#anametin {
+    background: #DDB9A3;
+    color: white;
+    margin-bottom: 2%;
+    padding: 2px;
+}
+
+p #ustOrta {
+    display: inline-block;
+}
+
+#orta {
+    margin-left: 35%;
+    margin-right: 35%;
+    display: inline-block;
+}
+
+#orta img {
+    width: 20%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#footer-content {
+
+        background: url(/assets/footer_img.jpg);
+        height: 200px;
+        width: 100%;
+    }
+    
+    footer{
+        background : #F9E7DC;
+        padding-bottom: 60px;
+    }
+
+footer nav  {
+    margin-top: 50px;
+}
